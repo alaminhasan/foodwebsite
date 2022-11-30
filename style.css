@@ -1,0 +1,376 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
+/*Globarl Css*/
+.container{
+    width: 88vw;
+    height: auto;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.button{
+    
+}
+body{
+    background-color: #FBF9F7;
+}
+/*Globarl Css end*/
+
+
+/*menubar start*/
+
+.menubar_container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar_container ul{
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+     font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    
+}
+.menubar_container ul li a{
+    color: grey;
+}
+.menubar_container ul li a:hover{
+    color: #B08967;
+}
+/*menubar end*/
+
+
+/*hero image start*/
+
+.hero_image_full{
+    background: url(https://websitedemos.net/food-drinks-blog-04/wp-content/uploads/sites/896/2021/06/hero-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.20);
+}
+.hero_image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.hero_image_text_container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 80px;
+    text-align: center;
+}
+.hero_image_text_container h6{
+    color: rgba(0,0,0,0.65);
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.hero_image_text_container h1{
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.hero_image_text_container input{
+    padding: 10px;
+    border: 0.5px solid #dddddd;
+    padding-right: 200px;
+    border-radius: 2px;
+    background: #fafafa;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.btn{
+    background-color: #B08967;
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+/*hero image end*/
+
+/*brand logo start*/
+.brand_image_full{
+    padding: 50px 0px;  
+}
+ h6{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: 'Lora', serif;
+
+}
+.brand_logo_container{
+    margin-top: 50px;
+    display: flex;
+    gap: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+
+}
+.brand_logo_image{
+    width: 100%;
+}
+.brand_logo_image img{
+    width: 100%;
+    height: 100%;
+}
+/*brand logo end*/
+
+/*blogo post start*/
+
+.blog_post_full{
+    padding: 40px 0px;
+    
+}
+.blog_post_container{
+    display: flex;
+    gap: 25px;
+}
+.blog_post{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    flex: 1 1 0;
+     width: 0;
+}
+.blog_post a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+
+.blog_post h2 a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    color: black;
+    letter-spacing: normal;
+    line-height: 1.3;
+}
+.blog_post p{
+    line-height: 1.4;
+    color: grey;
+}
+/*blogo post end*/
+
+/*BEST RESTAURANTS Part Start */
+.best_resturant_full{
+    margin-bottom: 30px;
+}
+.best_resturant_item_container{
+    display: flex;
+    gap: 25px;
+}
+.best_resturant_item{
+    flex: 1 1 0;
+     width: 0;
+     display: flex;
+     background-image: url(https://websitedemos.net/food-drinks-blog-04/wp-content/uploads/sites/896/2021/06/blog-004-1.jpg);
+     justify-content: center;
+     color: white;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center; 
+}
+.best_resturant_item:hover{
+    
+    transform: scale(1.02);
+   
+}
+.best_resturant_item .text_overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.50);
+}
+.best_resturant_text_container h4{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.best_resturant_item h2{
+    font-size: 35px;
+}
+
+.best_resturant_text_container{
+    text-align: center;
+    margin-top: 400px; 
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    letter-spacing: 2px;
+}
+
+/*BEST RESTAURANTS  Start */
+
+/*subscriber part start Here */
+.Subscribe{
+    background-image: url(https://websitedemos.net/food-drinks-blog-04/wp-content/uploads/sites/896/2021/06/bg-02.png);
+    background-repeat: no-repeat;
+    background-color:#B08967;
+    height: auto;
+    background-position: bottom;
+    color: #fafafa;
+    background-size: 80% 25%;
+}
+
+/*subscriber part end Here */
+
+/*Feature Reveiw videos start Here */
+.feature_video_full{
+    padding: 200px 10px;
+    text-align: center;
+}
+.feature_video_full h6{
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 20px;
+}
+
+.feature_video_full p{
+    font-size: 22px;
+    margin-bottom: 70px;
+    line-height: 1.3;
+}
+.feature_item_container{
+    display: flex;
+    gap: 20px;
+}
+.feature_item{
+    flex: 1 1 0;
+     width: 0;
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+}
+.feature_item img{
+    width: 100%;
+}
+.feature_item p{
+    margin: 0px;
+}
+.icon_container i{
+    color:#F0AD4E;
+}
+/*Feature Reveiw videos end Here */
+
+/*About Me part start here */
+.about_me_container{
+    text-align: left;
+}
+.about_me_container h6{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.about_me_container h1{
+    color: #B08967;
+    font-size: 35px;
+}
+.about_me_lower_part_container{
+    display: flex;
+    gap: 100px;
+    padding: 100px 0px;
+}
+.about_left_image img{
+    border-radius: 50%;
+}
+.about_right{
+    line-height: 1.5;
+}
+.about_right a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    margin-top: 100px;
+}
+/*About Me part end here */
+
+/*get in touch start here */
+.get_touch_full{
+    background: url(https://websitedemos.net/food-drinks-blog-04/wp-content/uploads/sites/896/2021/06/bg-01.jpg);
+    background-attachment: fixed;
+}
+.get_touch_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.get_touch_overlay{
+    background: rgba(0,0,0,0.50);
+}
+/*get in touch end here */
+/*footer start  here */
+
+.footer_full{
+    padding: 100px 0px 20px 0px;
+    background-color: black;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 30px;
+}
+.footer_container img{
+    margin-bottom: 80px;
+}
+.footer_container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-transform: uppercase;
+    color: #dddddd;
+    font-size: 12px;
+    font-family:'Poppins', sans-serif;  
+    margin-bottom: 80px;
+
+}
+.footer_container ul li a{
+    letter-spacing: 2px;
+}
+.footer_container a:hover{
+        color:#F0AD4E;
+}
+.social_media_container i{
+    margin-right: 10px;
+    
+}
+/*footer end  here */
